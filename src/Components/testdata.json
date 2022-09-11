@@ -1,0 +1,15 @@
+[
+    { "id": 1,
+      "fullName": "Jenny Chan",
+      "city": "France",
+      "phoneNumber": "333-962-7516",
+      "email": "jenny.chan@email.com"
+    }, 
+    {   "id": 2,
+        "fullName": "Hariharan P K",
+        "city": "Coimbatore",
+        "phoneNumber": "9791588358",
+        "email": "pkhariharan2703@gmail.com"
+      }
+  ]
+ 
