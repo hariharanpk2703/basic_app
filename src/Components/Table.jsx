@@ -111,10 +111,10 @@ const Table = () => {
 
   return (
     <div className="app-container">
-    <div className="py-4">
+    <div className="py-4" style={{marginLeft:400}}>
       <form onSubmit={handleEditFormSubmit}>
         
-        <table className="table table-dark table-striped-columns table border shadow">
+        <table style={{width:1120}} className="table table-dark table-striped-columns table border shadow">
           <thead className="thead-dark">
             <tr>
               <th scope="col">Name</th>
@@ -147,7 +147,8 @@ const Table = () => {
         
       </form></div>
 
-      <h2 style={{marginLeft:25}} >Add a Contact</h2>
+      <h2 style={{marginLeft:425}} >Add a Contact</h2>
+      <div style={{marginLeft:400}}>
       <form onSubmit={handleAddFormSubmit}>
         <input style={{marginLeft:10}}
           type="text"
@@ -179,6 +180,7 @@ const Table = () => {
         />
         <button type="submit" class="btn btn-secondary" style={{marginLeft:10}} > Add </button>
       </form>
+      </div>
     </div>
   )
 }
